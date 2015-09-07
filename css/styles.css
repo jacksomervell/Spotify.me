@@ -1,0 +1,30 @@
+body {
+  background: black;
+  font-family: 'Lobster', cursive;
+  color: white;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 50px;
+  vertical-align: top;
+  margin: 0px;
+}
+
+.logo {
+  display: inline-block;
+  width: 60px;
+  vertical-align: top;
+}
+
+.searchbar {
+  display: block;
+  margin-top: 20px
+
+}
+
+#searcher {
+  width: 150px;
+}
+
+

@@ -18,6 +18,15 @@ $(document).ready(function() {
             var result = $("<div class = 'results'>" + alteredType.name + "</div>");
             results.append(result);
           });
+
+//trying to add the previews - do i need .find()? why cant i do this? Agh
+      if (alteredType === "tracks") {
+        console.log("tracktime");
+      $.each(response[alteredType].preview_url, function(index, alteredType){
+        var preview = $("<div class = 'results'>" + alteredType.preview_url + "</div>");
+            results.append(preview);
         })
-      }
-    });
+      }    
+    })
+  }
+});
