@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Spotify Me</title>
+</head>
+<body>
+<h1> Spotify Me </h1>
+
+<div class="searchbar">
+  <input id="searcher" type="text" placeholder= "What are you looking for?">
+</div>
+
+ <select id = "select-type" >
+    <option value="default">-- Select your criteria --</option>
+    <option value="album">-- Search by album --</option>
+    <option value="artist">-- Search by artist --</option>
+    <option value="song">-- Search by song --</option>
+  </select>
+
+  <button id="search-button">Search</button>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="js/jq-spotify.js"></script>
+</body>
+</html>
